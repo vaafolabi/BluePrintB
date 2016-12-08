@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BluePrintB
+  host: BluePrintB
+  disk_quota: 1024M
+  services:
+  - tradeoff_analytics_instance
+  - BluePrintB-cloudantNoSQLDB
